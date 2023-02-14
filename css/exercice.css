@@ -12,6 +12,37 @@
 }
 
 /*3. exercice-align-content-1 */
+.exercice-align-content-1 .container-small {
+  display: flex;
+  flex-direction: reverse;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.exercice-align-content-1 .element-pink {
+  order: 1;
+}
+
+.exercice-align-content-1 .element-yellow {
+  order: 2;
+}
+
+.exercice-align-content-1 .element-gray {
+  order: 3;
+}
+
+.exercice-align-content-1 .element-red {
+  order: 4;
+}
+
+.exercice-align-content-1 .element-blue {
+  order: 5;
+}
+
+.exercice-align-content-1 .element-green {
+  order: 6;
+}
 
 /*4. exercice-align-content-2 */
 
