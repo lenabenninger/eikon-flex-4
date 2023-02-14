@@ -1,4 +1,8 @@
 /* 1. exercice-flex */
+.exercice-flex .container-small {
+  display: flex;
+  flex-direction: row;
+}
 
 /* 2. exercice-flex-2 */
 
