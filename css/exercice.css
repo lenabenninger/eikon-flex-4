@@ -55,6 +55,13 @@
 }
 
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: space-between;
+  flex-wrap: wrap-reverse;
+}
 
 /*6. exercice-flex-grow-1 */
 
