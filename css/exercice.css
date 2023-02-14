@@ -14,37 +14,45 @@
 /*3. exercice-align-content-1 */
 .exercice-align-content-1 .container-small {
   display: flex;
-  flex-direction: reverse;
+  flex-direction: row;
   align-items: center;
   align-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 .exercice-align-content-1 .element-pink {
-  order: 1;
-}
-
-.exercice-align-content-1 .element-yellow {
-  order: 2;
-}
-
-.exercice-align-content-1 .element-gray {
-  order: 3;
-}
-
-.exercice-align-content-1 .element-red {
-  order: 4;
-}
-
-.exercice-align-content-1 .element-blue {
-  order: 5;
-}
-
-.exercice-align-content-1 .element-green {
   order: 6;
 }
 
+.exercice-align-content-1 .element-yellow {
+  order: 4;
+}
+
+.exercice-align-content-1 .element-gray {
+  order: 5;
+}
+
+.exercice-align-content-1 .element-red {
+  order: 1;
+}
+
+.exercice-align-content-1 .element-blue {
+  order: 2;
+}
+
+.exercice-align-content-1 .element-green {
+  order: 3;
+}
+
 /*4. exercice-align-content-2 */
+.exercice-align-content-2 .container-small {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
 
 /*5. exercice-align-content-3 */
 
