@@ -102,3 +102,40 @@
 }
 
 /*9. exercice-all-in */
+.exercice-all-in .container-small {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.exercice-all-in .element-pink {
+  order: 1;
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-yellow {
+  order: 2;
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-gray {
+  order: 3;
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-red {
+  order: 4;
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-blue {
+  order: 5;
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-green {
+  order: 6;
+  flex-grow: 1;
+}
